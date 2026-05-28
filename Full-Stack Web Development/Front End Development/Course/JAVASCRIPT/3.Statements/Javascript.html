@@ -1,0 +1,65 @@
+<!--
+        Javascript Course:-
+                2.Statement
+--><!--Start-Coding-->
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <!--Font Awesome Link-->
+        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <!--Google fonts poppins-->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <!--Bootstrap Icons link-->
+        <link rel="stylesheet" href="https://unpkg.com/accordion-js@3.3.4/dist/accordion.min.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pushbar.js@1.0.0/src/pushbar.min.css" />
+        <lin rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <!--Google icons-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <!--Javascript other link-->
+        <script src="https://unpkg.com/accordion-js@3.3.4/dist/accordion.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/pushbar.js@1.0.0/src/pushbar.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/simple-scrollspy/2.4.0/simple-scrollspy.min.js"></script>
+        <!--Link Javascript-->
+        <script defer src="Javascript.js"></script>
+        <!--Link CSS-->
+        <link rel="stylesheet" href="style.css">
+        <title>
+            Statement
+        </title>    
+    </head>
+    <body>
+        <h1 style="color: red; text-decoration: underline; text-align: center;">Javascript Course by Ahmar Developer</h1>
+        <h2 style="color: blue; text-align: center; text-decoration: underline;">2.Statement</h2>
+        <p>In HTML, JavaScript statements are executed by the browser.</p>
+        <p id="demo"></p>
+        <p>A JavaScript <b>program</b> is a list of <b>statements</b> to be executed by a computer.</p>
+        <p id="demo1"></p>
+        <h2>Redeclaring a Variable Using var</h2>
+
+<p id="demo2"></p>
+        <script>
+        document.getElementById("demo").innerHTML = "Hello Dolly.";
+        let x, y, z; 
+        x = 5;
+        y = 6;       
+        z = x + y;    
+        document.getElementById("demo1").innerHTML = "The value of z is " + z;  
+        var  xz= 10;
+// Here x is 10
+
+{  
+var xz = 2;
+// Here x is 2
+}
+
+// Here x is 2
+document.getElementById("demo2").innerHTML = xz;
+        </script>
+    </body>
+</html>
