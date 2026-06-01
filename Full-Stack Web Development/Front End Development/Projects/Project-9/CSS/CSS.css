@@ -3,7 +3,6 @@ body{
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     border: 1px solid #eee;
     margin: 20px;
-    text-align: center;
     font-family: 'Segoe UI', 'Tahoma' ,'Geneva', Verdana, sans-serif;
 }
 .project-heading{
@@ -12,13 +11,16 @@ body{
     margin-bottom: 30px;
     font-weight: 1000;
     font-size: 36px;
+    text-align: center;
 }
 h1{
+    text-align: center;
     color: #333;
     margin-bottom: 20px;
     text-shadow: 2px 3px 2px rgba(0,0,0,0.5);
 }
-h2{
+h2{ 
+    text-align: center;
     color: #555;
     margin-bottom: 10px;
     text-shadow: 1px 2px 1px rgba(0,0,0,0.90);
@@ -39,6 +41,7 @@ input[type="number"]{
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 16px;
+    margin-left: 15px;
 }
 input[type="number"]:focus{
     border-color: #007BFF;
@@ -61,16 +64,18 @@ button{
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
+    margin-left: 95px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,1);
 }
 button:hover{
     background-color: #0056b3;
     box-shadow: 0 0 5px rgba(0,86,179,0.5);
-    font-size: 18px;
 }
 button:focus{
     background-color:  rgb(5, 155, 38);
     box-shadow: 0 0 5px rgba(5, 155, 38);
-    font-size: 18px;
     border: 1px solid  rgba(5, 155, 38);
 }
 p{
@@ -80,4 +85,5 @@ p{
     box-shadow: inset -1px -1px 5px 5px rgba(0,0,0,0.5);
     font-size: 20px;
     background-color: #fff;
+    padding-left: 50px;
 }
